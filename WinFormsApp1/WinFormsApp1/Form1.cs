@@ -61,5 +61,10 @@ namespace WinFormsApp1
         {
             pictureBox1.Image = Image.FromFile(@"..\..\..\img\fl10.png");
         }
+
+        private void closeBtn_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
